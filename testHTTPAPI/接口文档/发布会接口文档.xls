@@ -1,0 +1,21 @@
+名称	查询发布会接口		
+描述	该接口实现查询发布会		
+URL	http://127.0.0.1:8000/api/get_event_list/		
+调用方法	GET		
+传入参数	eid	# 发布会ID	
+	name	# 发布会标题	
+返回值	"{   
+    'data':{
+    'start_time': '2018-04-05'
+    'name': 
+    'limit':
+    'address':
+    'status': true
+              }
+    'status': 200
+    'message': 'success'
+}"		
+状态码	200: success		
+	10021: parameter error		
+	10022: query result is empty		
+说明			
